@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:ellipsize="marquee"
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2016-02-01"
+        android:textColor="#000"
+        android:textSize="24sp"/>
+    <TextView
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:ellipsize="marquee"
+        android:id="@+id/value"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="1.0000"
+        android:textColor="#000"
+        android:textSize="24sp"/>
+    <TextView
+        android:gravity="center_horizontal"
+        android:maxLines="1"
+        android:ellipsize="marquee"
+        android:id="@+id/percent"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="-0.00%"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="24sp"/>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="6dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/tv_fundname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:singleLine="true"
+            android:text="天弘基金天弘基金天弘基金天弘基金"/>
+
+        <LinearLayout
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_money"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="购买金额500"
+                android:singleLine="true"
+                android:textSize="15sp"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/tv_income"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:text="预计收益5"
+                android:singleLine="true"
+                android:textSize="15sp"
+                android:layout_weight="1"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_fundpz"
+        android:layout_gravity="right"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_width="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@android:color/holo_red_light"
+        android:singleLine="true"
+        android:text="0.00%"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

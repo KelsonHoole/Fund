@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">基金估值查询</string>
+    <string name="title_activity_history_net">HistoryNetActivity</string>
+</resources>
