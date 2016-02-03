@@ -9,7 +9,4 @@ public class FundBean {
     public String pecent_value;     //基金涨幅
     public String fundpz;           //基金净值
     public String gztime;           //估算时间
-
-    public int x;
-
 }
