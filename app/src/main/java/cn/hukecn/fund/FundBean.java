@@ -10,5 +10,4 @@ public class FundBean {
     public String fundpz;           //基金净值
     public String gztime;           //估算时间
 
-    //public int testjjj;
 }
